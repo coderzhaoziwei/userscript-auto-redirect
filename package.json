@@ -1,13 +1,18 @@
 {
-  "name": "",
+  "name": "userscript-auto-redirect",
   "version": "0.0.1",
-  "description": "",
-  "author": "Coder Zhao <coderzhaoziwei@outlook.com>",
-  "repository": "",
-  "private": true,
+  "author": "Coder Zhao",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderzhaoziwei/userscript-auto-redirect.git"
+  },
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "yarn:init": "yarn"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "userscript"
+  ]
 }
