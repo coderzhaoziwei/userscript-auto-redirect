@@ -2,10 +2,11 @@
 // @name         Auto Redirect
 // @namespace    coderzhaoziwei@outlook.com
 // @description  网站外部链接自动跳转 | 知乎 | 简书 | Steam
-// @version      1.0.1
+// @version      1.0.2
+// @homepage     https://greasyfork.org/scripts/426352
 // @author       Coder Zhao
-// @match        https://www.jianshu.com/go-wild*
 // @match        https://link.zhihu.com/*
+// @match        https://www.jianshu.com/go-wild*
 // @match        https://steamcommunity.com/linkfilter*
 // @grant        none
 // ==/UserScript==
@@ -42,7 +43,7 @@
       const key = data.paramkey;
 
       if (params.has(key)) {
-        location.replace(params.get(key))
+        location.replace(params.get(key));
       }
 
       return params.has(key);
